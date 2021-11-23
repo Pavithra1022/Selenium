@@ -21,7 +21,7 @@ public class Driveractory {
 	{
 	FileInputStream fis;
 	try {
-		fis = new FileInputStream("./src/test/resource/cofig");
+		fis = new FileInputStream("./src/test/resource/config/config.properties");
 		
 		prop = new Properties();
 		prop.load(fis);
